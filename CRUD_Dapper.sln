@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Dapper", "CRUD_Dapper\CRUD_Dapper.csproj", "{14459505-32A1-45E4-9B46-A0A279DD81C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLib", "CodeLib\CodeLib.csproj", "{13FCFAB8-8E11-4B55-A3B4-9D4090212AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14459505-32A1-45E4-9B46-A0A279DD81C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14459505-32A1-45E4-9B46-A0A279DD81C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14459505-32A1-45E4-9B46-A0A279DD81C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14459505-32A1-45E4-9B46-A0A279DD81C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FCFAB8-8E11-4B55-A3B4-9D4090212AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FCFAB8-8E11-4B55-A3B4-9D4090212AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FCFAB8-8E11-4B55-A3B4-9D4090212AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FCFAB8-8E11-4B55-A3B4-9D4090212AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D799947-9B3A-4BE1-B0A6-7D3D006C07FE}
+	EndGlobalSection
+EndGlobal
