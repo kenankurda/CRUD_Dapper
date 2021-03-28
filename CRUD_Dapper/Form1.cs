@@ -25,8 +25,23 @@ namespace CRUD_Dapper
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            Book book = new Book();
+            // Code that inserts Book 
 
+            //Book book = new Book();
+
+            //book.Title = txtTitle.Text;
+            //book.Author = txtAuthor.Text;
+            //book.Price = decimal.Parse(txtPrice.Text);
+            //book.Description = txtDescription.Text;
+            //book.CountryId = 1;
+
+            //BookRepo repo = new BookRepo();
+            //repo.AddBook(book);
+            //LoadBooks();
+
+            // Code that inserts Book and gives back inserted Id
+            Book book = new Book();
+            book.Id = 0;
             book.Title = txtTitle.Text;
             book.Author = txtAuthor.Text;
             book.Price = decimal.Parse(txtPrice.Text);
@@ -34,7 +49,9 @@ namespace CRUD_Dapper
             book.CountryId = 1;
 
             BookRepo repo = new BookRepo();
-            repo.AddBook(book);
+            int value = repo.AddBookReturnId(book);
+            
+            MessageBox.Show(value.ToString());
             LoadBooks();
         }
 
@@ -74,6 +91,13 @@ namespace CRUD_Dapper
             BookRepo repo = new BookRepo();
             repo.UpdateBook(book);
             LoadBooks();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            BookRepo repo = new BookRepo();
+            //repo.Delete(10);
+            repo.DeleteBookById(21);
         }
     }
 }
